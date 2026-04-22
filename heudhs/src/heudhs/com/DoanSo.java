@@ -42,9 +42,9 @@ public class DoanSo {
                 } catch (Exception ex) {
                     // Nếu nhập chữ hoặc ký tự lạ, catch sẽ "hứng" lỗi ở đây
                     System.out.println("Lỗi rồi: Nhập số nguyên thôi bạn ơi! Đừng nhập chữ.");
-                    // ex.printStackTrace(); // Dùng lệnh này của thầy để xem vết lỗi nếu muốn
+                    // ex.printStackTrace();
                 } finally {
-                    // Khối lệnh này luôn thực hiện dù có lỗi hay không (theo lý thuyết thầy dạy)
+                    
                 }
                 // --- KẾT THÚC KHỐI XỬ LÝ BIỆT LỆ ---
             }
